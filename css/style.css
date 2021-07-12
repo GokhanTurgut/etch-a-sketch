@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .container {
@@ -20,9 +20,10 @@ h1 {
 
 }
 
-.container > * {
-    border: solid 1px;
+.border {
+    border: 1px solid black;
 }
 
-.size {  
+.black {
+    background-color: black;
 }

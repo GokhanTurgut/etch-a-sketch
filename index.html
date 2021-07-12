@@ -10,11 +10,18 @@
 <body>
     
     <h1>Etch a Sketch</h1>
+    <div class="options">
+        <button id="clean">Clean</button>
+        <button id="blackPen">Black</button>
+        <button id="rgbPen">RGB</button>
+        <button id="borders">Borders</button>
+        <!-- <button id="darken">Darken</button> -->
+    </div>
     <div class="container">      
     </div>
     <div class="size">
         <label for="size">Grid Size :</label>
-        <input type="range" name="size" id="gridSize" min="1" max="50" value="25">
+        <input type="range" name="size" id="gridSize" min="1" max="100" value="50">
         <div id="output"></div>
         <button id="create">Create</button>
     </div>

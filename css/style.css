@@ -5,19 +5,63 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-wrap: wrap;
+    font-family: 'Lobster', cursive;
+    background: rgb(237,95,255);
+    background: linear-gradient(90deg, rgba(237,95,255,1) 0%, rgba(0,255,111,1) 100%);
 }
 
 h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+button {
+    font-family: 'Lobster', cursive;
+    background-color: black;
+    color: white;
+    padding: .5rem 2rem;
+    border: 1px solid white;
+    border-radius: 5%;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #357b87;
+    box-shadow: 0 10px 15px 0px rgba(0,0,0,0.75);
+}
+
+button:active {
+    transform: translateY(3px);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.options {
+    margin-bottom: 1rem;
+    display: flex;
+    width: 70vh;
+    justify-content: space-between;
 }
 
 .container {
     display: grid;
     width: 70vh;
     height: 70vh;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    border: 1rem solid #1c1829;
+    border-radius: 2%;
+    background-color: white;
+    margin-bottom: 1rem;
+}
 
+.size {
+    display: flex;
+    width: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#create {
+    margin-left: 4rem;
 }
 
 .border {
